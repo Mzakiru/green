@@ -3,7 +3,7 @@ header { background: #e7c505; color: white; display: flex; justify-content: spac
 .logo img { height: 50px; }
 nav ul { list-style: none; display: flex; gap: 15px; padding: 0; margin: 0; }
 nav ul li a { color: white; text-decoration: none; font-weight: bold; }
-.hero-slider img { width: 100%; height: 400px; object-fit: cover; }
+{ width: 100%; height: 400px; object-fit: cover; }
 .welcome { text-align: center; padding: 30px; }
 .grid-sections { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; padding: 20px 40px; }
 .card { background: white; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
