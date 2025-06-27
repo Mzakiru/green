@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header>
+  <div class="logo"><img src="assets/logo.png" alt="Logo" /></div>
+  <nav><ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="academics.html">Academics</a></li>
+    <li><a href="admissions.html">Admissions</a></li>
+    <li><a href="#">Research</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul></nav>
+</header>
+<main class="welcome">
+  <h1>Contact Us</h1>
+  <form action="submit_contact.php" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required /><br/><br/>
+    <input type="email" name="email" placeholder="Your Email" required /><br/><br/>
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br/><br/>
+    <button type="submit">Send</button>
+  </form>
+</main>
+<footer><div class="footer-info"><p>© 2025 Health University | Dar es Salaam, Tanzania</p></div></footer>
+</body>
+</html>
