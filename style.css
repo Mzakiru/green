@@ -1,5 +1,5 @@
-body { margin: 0; font-family: Arial, sans-serif; background: #f4f4f4; }
-header { background: #002f5f; color: white; display: flex; justify-content: space-between; padding: 10px 30px; align-items: center; }
+body { margin: 0; font-family: Arial, sans-serif; background: #09a330; }
+header { background: #dbd805; color: white; display: flex; justify-content: space-between; padding: 10px 30px; align-items: center; }
 .logo img { height: 50px; }
 nav ul { list-style: none; display: flex; gap: 15px; padding: 0; margin: 0; }
 nav ul li a { color: white; text-decoration: none; font-weight: bold; }
@@ -7,4 +7,4 @@ nav ul li a { color: white; text-decoration: none; font-weight: bold; }
 .welcome { text-align: center; padding: 30px; }
 .grid-sections { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; padding: 20px 40px; }
 .card { background: white; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
-footer { background: #002f5f; color: white; padding: 20px; text-align: center; }
+footer { background: #0e861e; color: white; padding: 20px; text-align: center; }
